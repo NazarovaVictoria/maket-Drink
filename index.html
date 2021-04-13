@@ -36,7 +36,6 @@
 				<a class="logo__link" href="#">
 					<img class="logo__img" src="" alt="">
 				</a>
-				<span class="logo__subtitle">fresh foods</span>
 			</div>
 			<div class="header__personal personal">
 				<ul class="personal__list">
@@ -89,30 +88,38 @@
 		<div class="smoothies__inner">
 			<h2 class="smoothies__title title">What are these smoothies?</h2>
 			<p class="smoothies__text text"></p>
-			<img class="smoothies__img" src="" alt="">
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Pland Based</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Vegan</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Paleo</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Gluten-Free</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Corn-Free</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Soy-free</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Ayurvedic</h3>
-			</img>
-			<img class="smoothies__img" src="" alt="">
+			</div>
+			<div class="smoothies__img-wrapper">
+				<img class="smoothies__img" src="" alt="">
 				<h3 class="smoothies__subtitle">Made With Love</h3>
-			</img>
+			</div>
 		</div>
 	</section>
 	<section class="about">
@@ -136,26 +143,26 @@
 		</div>
 	</section>
 	<section class="products">
-		<div class="container">
-			<div class="products__item porduct porduct--chocolate">
+		<div class="product">
+			<div class="products__item--chocolate">
 				<img class="product__img" src="" alt="bottle of chocolete smoothie">
-				<h3 class="product__title">Dark Chocolate Smoothie </h3>
+				<h3 class="product__title">Dark Chocolate Smoothie</h3>
 				<span class="product__subtitle">100ml</span>
 				<button class="product__btn btn--white btn">Buy</button>
 			</div>
-			<div class="products__item porduct porduct--vegan">
+			<div class="products__item--vegan">
 				<img class="product__img" src="" alt="bottle of vegan smoothie">
-				<h3 class="product__title">Vegan lettuce Smoothie 100 ml</h3>porduct 
+				<h3 class="product__title">Vegan lettuce Smoothie</h3> 
 				<span class="product__subtitle">100ml</span>
 				<button class="product__btn btn--white btn">Buy</button>
 			</div>
-			<div class="products__item porduct porduct--lemon">
+			<div class="products__item--lemon">
 				<img class="product__img" src="" alt="bottle of lemon smoothie">
-				<h3 class="product__title">Lemon Ginger Smoothie 100 ml</h3>
+				<h3 class="product__title">Lemon Ginger Smoothie</h3>
 				<span class="product__subtitle">100ml</span>
 				<button class="product__btn btn">Buy</button>
 			</div>
-			<div class="products__item porduct porduct--garlic--white btn">
+			<div class="products__item--garlic">
 				<img class="product__img" src="" alt="bottle of turmeric garlic smoothie">
 				<h3 class="product__title">Turmeric Garlic Smoothie</h3>
 				<span class="product__subtitle">100ml</span>
@@ -167,7 +174,7 @@
 		<div class="container">
 			<div class="story__inner">
 				<h2 class="story__title title title--yellow">Our story</h2>
-				<q class="story__text text"></q>
+				<p class="story__text text"></p>
 				<button class="story__btn btn btn--green">Who we are</button>
 			</div>
 			<div class="story__img-wrapper">
@@ -177,12 +184,14 @@
 	</section>
 	<section class="testimonials">
 		<h3 class="testimonials__title title">Why clients <span>LOVE</span>us?</h3>
-		<div class="testimonials__wrapper">
-			<div>
-				<q class="testimonials__text text"></q>
-				<cite class="testimonials__text text--orange"></cite>
+		<div class="testimonials__inner">
+			<div class="testimonials__slide">
+				<div class="testimonials__wrapper">
+					<q class="testimonials__text text"></q>
+					<cite class="testimonials__text text--orange"></cite>
+				</div>
+				<img class="testimonials__img" src="" alt="">
 			</div>
-			<img class="testimonials__img" src="" alt="">
 			<div class="testimonials__slider">
 				<img class="testimonials__arrow arrow-prev" src="" alt="">
 				<img class="testimonials__arrow arrow-next" src="" alt="">
@@ -195,52 +204,53 @@
 				<h2 class="blog__title title">Our blog</h2>
 				<img class="blog__img" src="" alt="">
 			</div>
-			<div class="blog__right">
+			<article class="blog__right">
 				<h3 class="blog__subtitle">Asafoettida - the neat turmeric</h3>
 				<time class="blog__time">Jun 16, 2020</time>
 				<p class="blog__text text">
 					<span class="blog__excerpt">Read More</span>
 				</p>
-			</div>
-		</div>
-		<div class="blog__footer">
-			<a class="blog__link" href="#">ashasuperfoods</a>
+			</article>
 		</div>
 	</section>
 	<section class="instagram">
 		<div class="instagram__wrapper">
-			<a class="instagram__link" href="#">
-				<img class="instagram__img" src="" alt=""></img>
-			</a>
-			<a class="instagram__link" href="#">
-				<img class="instagram__img" src="" alt=""></img>
-			</a>
-			<a class="instagram__link" href="#">
-				<img class="instagram__img" src="" alt=""></img>
-			</a>
-			<a class="instagram__link" href="#">
-				<img class="instagram__img" src="" alt=""></img>
-			</a>
+			<div class="instagram__link-wrapper">
+				<h2 class="instagram__link-title">
+					<a class="instagram__link" href="#">ashasuperfoods</a>
+				</h2>
+			</div>
+			<div class="instagram__img-wrap">
+				<img class="instagram__img" src="" alt="">
+			</div>
+			<div class="instagram__img-wrap">
+				<img class="instagram__img" src="" alt="">
+			</div>
+			<div class="instagram__img-wrap">
+				<img class="instagram__img" src="" alt="">
+			</div>
+			<div class="instagram__img-wrap">
+				<img class="instagram__img" src="" alt="">
+			</div>
 		</div>
 	</section>
-	<footer>
-		<div class="footer-top">
+	<footer class="footer">
+		<div class="footer__top">
 			<a class="logo__link logo" href="#">
 				<img class="logo__img" src="" alt="">
 			</a>
-			<span class="logo__subtitle">fresh foods</span>
-			<div>
-				<h4 class="footer__title">Information</h4>
-				<ul class="footer__list">
-					<li class="footer__list-item">Search</li>
-					<li class="footer__list-item">Contact us</li>
-					<li class="footer__list-item">Terms & Conditions</li>
-					<li class="footer__list-item">Privacy Policy</li>
+			<div class="footer__info info">
+				<h4 class="footer__title info__title">Information</h4>
+				<ul class="info__list">
+					<li class="info__list-item">Search</li>
+					<li class="info__list-item">Contact us</li>
+					<li class="info__list-item">Terms & Conditions</li>
+					<li class="info__list-item">Privacy Policy</li>
 				</ul>
 			</div>
-			<div>
-				<h4 class="footer__title">Payment</h4>
-				<div class="footer__payment">
+			<div class="footer__payment payment">
+				<h4 class="footer__title payment__title">Payment</h4>
+				<div class="footer__wrapper-img">
 					<img class="payment__img" src="" alt="">
 					<img class="payment__img" src="" alt="">
 					<img class="payment__img" src="" alt="">
@@ -253,32 +263,31 @@
 					<img class="payment__img" src="" alt="">
 				</div>
 			</div>
-			<div class="footer__follow-us">
+			<div class="footer__subscribe">
 				<h4 class="footer__title">Don't miss out!</h4>
-				<input class="footer__input" type="text">
-				<span class="">follow us</span>
-				<ul>
-					<li>
-						<a href="">
-							<img></img>
+				<form action=""> 
+					<input class="footer__input" type="text">
+					<label for="#"></label>
+				</form>
+				<div class="footer__follow-wrapper">
+					<span class="footer__input-subtitle">follow us</span>
+					<div class="footer__social social">
+						<a class="footer__social-link" href="#">
+							<img class="footer__social-img" src="" alt="">
 						</a>
-					</li>
-					<li>
-						<a href="">
-							<img></img>
+						<a class="footer__social-link" href="#">
+							<img class="footer__social-img" src="" alt="">
 						</a>
-					</li>
-					<li>
-						<a href="">
-							<img></img>
+						<a class="footer__social-link" href="#">
+							<img class="footer__social-img" src="" alt="">
 						</a>
-					</li>
-				</ul>
+					</div>
+				</div> 
 			</div>
 		</div>
-		<div class="footer-bottom">
-			<small>2020 All Rights Reserved</small>
-			<a href="#">Go top</a>
+		<div class="footer__bottom">
+			<small class="footer__copyright">&copy 2020 All Rights Reserved</small>
+			<a class="uplink" href="#">Go top</a>
 		</div>
 	</footer>
 </body>
