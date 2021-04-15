@@ -1,0 +1,35 @@
+@import "./fonts.css";
+@import "./nomalize.css";
+.header {
+  background-image: url(../image/header/header-bg.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+}
+
+.header-top {
+  padding: 70px 100px 100px;
+}
+
+.header__btn {
+  height: 70px;
+  width: 280px;
+}
+
+.btn {
+  border-radius: 35px;
+  font-family: "Muli-ExtraBold", sans-serif;
+  padding: 0 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+  border: none;
+}
+
+.btn--green-bg {
+  background-color: #0aa566;
+  color: #fff;
+  font-size: 21px;
+}

@@ -1,0 +1,86 @@
+@import "./fonts.css";
+@import "./nomalize.css";
+.header {
+	background-image: url(../image/header/header-bg.png);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+}
+.header-top {
+	padding: 70px 100px 100px;
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
+}
+.header__logo {
+}
+.logo {
+}
+.logo__link {
+}
+.logo__img {
+}
+.header__personal {
+}
+.personal {
+}
+.personal__list {
+}
+.personal__list-item {
+}
+.personal__link {
+}
+.personal__icon-search {
+}
+.personal__icon-user {
+}
+.personal__link-cart {
+}
+.personal__cart-icon {
+}
+.personal__cart-count {
+}
+.header__social {
+}
+.social {
+}
+.social__list {
+}
+.social__list-item {
+}
+.social__link {
+}
+.social__icon {
+}
+.header__content {
+}
+.header__btn {
+	height: 70px;
+	width: 280px;
+}
+.btn {
+	border-radius: 35px;
+	font-family: "Muli-ExtraBold",sans-serif;
+	// font-size: 24px;
+	padding: 0 38px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: capitalize;
+	border: none;
+}
+.btn--green-bg {
+	background-color: #0aa566;
+	color: #fff;
+	font-size: 21px;
+}
+.btn__arrow-yellow {
+}
