@@ -1,0 +1,16 @@
+body {
+	font-family: "Muli-Bold", sans-serif;
+	overflow: hidden;
+}
+a {
+	display: inline-block;
+}
+a:hover {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+ul {
+	list-style: none;
+	margin: 0;
+}
