@@ -1,4 +1,4 @@
-@import "./font s.css";
+@import "./fonts.css";
 @import "./normalize.css";
 @import "./settings.css";
 .header {
@@ -12,8 +12,15 @@
 }
 
 .header-top {
+  width: 1730px;
   padding: 70px 100px 100px;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu__list {
+  display: flex;
 }
 
 .menu__item {
@@ -31,8 +38,24 @@
   color: #fff;
 }
 
+.personal__list {
+  display: flex;
+  position: relative;
+}
+
 .personal__list-item {
   margin-right: 45px;
+}
+
+.personal__link-cart::after {
+  content: "";
+  display: block;
+  width: 47px;
+  height: 2px;
+  background-color: #ffd68f;
+  position: absolute;
+  right: -10px;
+  top: 10px;
 }
 
 .personal__cart-count {
@@ -42,9 +65,27 @@
   width: 18px;
   text-align: center;
   border-radius: 50%;
-  line-height: 2;
+  line-height: 1.8;
   font-size: 10px;
   color: #000;
+  position: absolute;
+  bottom: 20px;
+}
+
+.social__list {
+  display: flex;
+}
+
+.social__link {
+  margin-left: 5px;
+}
+
+.social__icon {
+  height: 17px;
+  color: #434343;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 10px;
 }
 
 .header__btn {

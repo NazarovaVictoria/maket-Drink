@@ -38,3 +38,11 @@
 		url("../fonts/Muli-Semi-BoldItalic.ttf") format("truetype");
 	font-display: swap;
 }
+@font-face {
+	font-family: "Muli-Regular";
+	src:
+		url("../fonts/Muli-Regular.woff2") format("woff2"),
+		url("../fonts/Muli-Regular.woff") format("woff"),
+		url("../fonts/Muli-Regular.ttf") format("truetype");
+	font-display: swap;
+}
