@@ -3,7 +3,6 @@
 @import "./settings.css";
 .header {
   background-image: url(../image/header/header-bg.png);
-  height: 100vh;
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -109,4 +108,25 @@
   background-color: #0aa566;
   color: #fff;
   font-size: 21px;
+}
+
+.smoothies__inner {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.smoothies__title {
+  color: #f7ae3b;
+  margin-bottom: 60px;
+}
+
+.title {
+  font-family: "Muli-ExtraBold", sans-serif;
+  font-size: 40px;
+}
+
+.text {
+  font-family: "Muli-Regular", sans-serif;
+  font-size: 15px;
+  line-height: 2;
 }
